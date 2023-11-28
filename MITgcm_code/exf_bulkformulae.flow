@@ -1,0 +1,15 @@
+C $Header:   ykk Exp $
+C $Name:   $
+
+C     /==========================================================\
+C     |                                                          |
+C     \==========================================================/
+cadj SUBROUTINE exf_bulkformulae INPUT   = 1, 2, 3
+cadj SUBROUTINE exf_bulkformulae OUTPUT  =
+cadj SUBROUTINE exf_bulkformulae ACTIVE  =
+cadj SUBROUTINE exf_bulkformulae DEPEND  = 1, 2, 3
+cadj SUBROUTINE exf_bulkformulae REQUIRED
+cadj SUBROUTINE exf_bulkformulae INFLUENCED
+cadj SUBROUTINE exf_bulkformulae ADNAME  = adexf_bulkformulae
+cadj SUBROUTINE exf_bulkformulae FTLNAME = g_exf_bulkformulae
+
