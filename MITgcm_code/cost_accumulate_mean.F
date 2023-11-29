@@ -62,11 +62,12 @@ C--   Accumulate the cost function on the tile of this instance
              do i=1,sNx
 
 
-              do k = 2, Nr
+             do k = 2, Nr
              ygmskLoc = ygmsk(i,j,k,bi,bj)
              if (ygmskLoc > 0) then
 
       if ((salt(i,j,k,bi,bj)>0) .and. (salt(i,j,k-1,bi,bj)>0)) then
+
       pressRefL=(-1)*rC(k)*1.0E4
          TatL =
      &    theta(i,j,k,bi,bj)
@@ -96,7 +97,7 @@ C--   Accumulate the cost function on the tile of this instance
      &                *((RhoL-RhoU)/RhoL)
      &                /1.0E-12 
 
-                cMeanTheta(i,j,k,bi,bj) = cMeanTheta(i,j,k,bi,bj)
+      cMeanTheta(i,j,k,bi,bj) = cMeanTheta(i,j,k,bi,bj)
      &                +maskC(i,j,k,bi,bj)*maskC(i,j,k-1,bi,bj)
      &                *drF(k)*hfacC(i,j,k,bi,bj)*rA(i,j,bi,bj)
      &                *1.5E7
