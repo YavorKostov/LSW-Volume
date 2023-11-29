@@ -1,1 +1,1 @@
-A Matlab script for convolving the adjoint sensitivity maps with forcing anomalies.
+A Matlab function for convolving the adjoint sensitivity maps with forcing anomalies.
