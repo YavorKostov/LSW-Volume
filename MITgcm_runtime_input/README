@@ -1,1 +1,6 @@
-Input files
+Input files for the adjoint sensitivity runs.
+Parameters PVlowBnd and PVupBnd set lower and upper bounds for the adjoint calculation 
+in potential vorticity coordinates.
+
+This not standard MITgcm input but is a custom feature introduced in this project 
+and requires compiling the additional code provided here.
